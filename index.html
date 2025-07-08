@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Béli Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <div class="navbar-logo">
+      <img src="img/beliprojects2.png" alt="Logo" />
+    </div>
+    <div class="navbar-icons">
+      <a href="https://github.com/yourprofile" class="navbar-icon" target="_blank">
+        <!-- GitHub SVG -->
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+          <path d="M12 2C6.49 2 2 6.49 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.69-.22.69-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.34-3.37-1.34-.46-1.19-1.12-1.51-1.12-1.51-.91-.62.07-.61.07-.61 1 .07 1.52 1.03 1.52 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.92 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.28.1-2.67 0 0 .84-.27 2.75 1.03a9.56 9.56 0 012.5-.34c.85.01 1.7.11 2.5.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.39.2 2.42.1 2.67.64.71 1.03 1.6 1.03 2.68 0 3.82-2.34 4.67-4.57 4.92.36.31.68.92.68 1.85 0 1.33-.01 2.41-.01 2.73 0 .27.18.57.7.48A10 10 0 0022 12c0-5.51-4.49-10-10-10z"></path>
+          </svg>
+      </a>
+      <a href="https://linkedin.com/in/yourprofile" class="navbar-icon" target="_blank">
+        <!-- LinkedIn SVG -->
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="24" fill="white">
+          <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-1.07 0-1.93-.83-1.93-1.86 0-1.03.86-1.86 1.93-1.86s1.93.83 1.93 1.86c0 1.02-.86 1.86-1.93 1.86zm13.5 11.27h-3v-5.59c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.69h-3v-10h2.89v1.37h.04c.4-.74 1.38-1.52 2.84-1.52 3.04 0 3.6 2 3.6 4.59v5.56z"></path>
+          </svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-mini">I am</span>
+      <h1 class="hero-title">A Frontend and Mobile Developer</h1>
+      <p class="hero-desc">Cross-Platform Development</p>
+      <div class="hero-buttons">
+        <a href="cv.pdf" class="btn btn-light" download>
+          <i class="fa fa-download"></i> Download CV
+        </a>
+        <a href="#projects" class="btn btn-dark">
+          Check My Projects <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-arrow" id="scrollProjects">
+      <i class="fa fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- LATEST PROJECT -->
+  <section class="latest-project">
+    <h2 class="section-title">Latest project.</h2>
+    <div class="latest-project-content">
+      <div class="latest-image">
+        <img src="https://placehold.co/330x600" alt="Latest project image" />
+      </div>
+      <div class="latest-desc">
+        <h3>Social Media Application</h3>
+        <p>
+          Reisto is a social media app for food enthusiasts worldwide. Share recipes, discover new dishes, and connect with a community of like-minded food lovers.
+        </p>
+        <div class="tech-stack">
+          <span>Developed with</span>
+          <div class="tech-icons">
+            <span class="tech">React Native</span>
+            <span class="tech">Expo</span>
+            <span class="tech">Firebase</span>
+            <span class="tech">I18next</span>
+            <span class="tech">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS CAROUSEL -->
+  <section class="projects-section" id="projects">
+    <h2 class="section-title">Projects I worked.</h2>
+    <div class="projects-carousel" id="projectsCarousel">
+      <!-- Project Card Example: duplicate as needed -->
+      <div class="project-card">
+        <div class="project-header">
+          <h4>Normalize Size.</h4>
+          <span>React-Native, Npm package</span>
+          <div class="project-badge"><i class="fa-brands fa-npm"></i> react-native-normalized</div>
+        </div>
+        <img src="https://placehold.co/250x200" alt="Project 1">
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <h4>Svg render.</h4>
+          <span>React-Native, Npm package</span>
+          <div class="project-badge"><i class="fa-brands fa-npm"></i> react-native-svg-rendo</div>
+        </div>
+        <img src="https://placehold.co/250x200" alt="Project 2">
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+          <h4>Social media.</h4>
+          <span>Full stack, UI/UX research</span>
+          <div class="project-badge"><i class="fa fa-hashtag"></i> Reisto</div>
+        </div>
+        <img src="https://placehold.co/250x200" alt="Project 3">
+      </div>
+      <!-- ...add more cards as needed -->
+    </div>
+  </section>
+
+  <!-- TECH SKILLS -->
+  <section class="skills-section" id="skills">
+    <h2 class="section-title">Technical skills.</h2>
+    <div class="skills-row">
+      <h3>Programming languages</h3>
+      <div class="skills-icons">
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/><span>JavaScript</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><span>Python</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/><span>C#</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/><span>C++</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"/><span>Bash</span></div>
+      </div>
+    </div>
+    <div class="skills-row">
+      <h3>Front-End</h3>
+      <div class="skills-icons">
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/><span>React</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/><span>HTML5</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/><span>CSS3</span></div>
+        <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/><span>Bootstrap</span></div>
+        <!-- ...add more icons as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FAQ -->
+  <section class="contact-section" id="contact">
+    <div class="contact-form">
+      <h2>Contact me</h2>
+      <form>
+        <input type="text" placeholder="Name" required/>
+        <input type="email" placeholder="Email" required/>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+      </form>
+    </div>
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button class="faq-question">What is your experience in React?</button>
+        <div class="faq-answer">Over 3 years building modern SPA and PWA applications.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Do you have experience with backend development?</button>
+        <div class="faq-answer">Yes, using Node.js, Firebase, and cloud functions.</div>
+      </div>
+      <!-- ...more FAQs as needed -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div>
+        &copy; 2025 Your Name. All rights reserved.
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-to-top" id="scrollToTopBtn"><i class="fa fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
